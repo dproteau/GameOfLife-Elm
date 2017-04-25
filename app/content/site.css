@@ -1,0 +1,23 @@
+.board {
+    display: table;
+    border: silver solid 1px;
+}
+
+.board-row {
+    display: table-row;
+}
+
+.board-row div {
+    transition: background-color 0.5s ease;
+    display: table-cell;
+    height: 1rem;
+    width: 1rem;
+}
+
+.dead {
+    background-color: rgba(255, 255, 255, 0.66);
+}
+
+.alive {
+    background-color: rgba(0, 0, 0, 1);
+}
